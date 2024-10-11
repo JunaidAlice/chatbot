@@ -25,15 +25,12 @@ const Team = () => {
   ];
 
   return (
-    <div className="bg-gray-950  " id="team">
+    <div id="team">
+      <div className=" w-[90%] mx-auto rounded-t-full  border  border-purple-700 mb-4"></div>
       
-      <div className="bg-purple-600 absolute p-14 bg-opacity-15  rounded-b-full blur-lg"></div>
-      <div className="bg-purple-600 absolute p-16 bg-opacity-15  rounded-b-full blur-lg  top-12 right-10"></div>
-      <div className="bg-purple-600 absolute p-12 bg-opacity-15  rounded-b-full blur-lg bottom-20 left-5"></div>
-      <div className="bg-purple-600 absolute p-12 bg-opacity-15  rounded-b-full blur-lg bottom-0 left-[32%]"></div>
-      <div className="bg-purple-600 absolute p-[3%] bg-opacity-15  rounded-t-full rounded-bl-full blur-3xl bottom-32 right-12"></div>
+ 
 
-      <div className="bg-gray-950  py-16 flex items-center">
+      <div className="  py-16 text-black flex items-center">
         
         <div className="flex md:flex-row flex-col  justify-evenly items-center relative">
           {Cards.map((Cards) => (
@@ -49,7 +46,7 @@ const Team = () => {
           ))}
         </div>
       </div>
-      <div className=" w-[90%] mx-auto rounded-t-full  border  border-purple-700 mb-4"></div>
+      
 
     </div>
   );
